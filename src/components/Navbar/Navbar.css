@@ -104,6 +104,7 @@
   @media(max-width: 991px){
       .nav-toggler{
           display: flex;
+          background-color: white;
       }
       .header .nav{
           position: absolute;
