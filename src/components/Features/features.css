@@ -122,6 +122,9 @@
 }
 
 @media (max-width: 998px) {
+  .feature{
+    padding-bottom: 10%;
+  }
   .main-card--cointainer {
     display: grid;
     grid-template-columns: repeat(1, minmax(200px, 500px));

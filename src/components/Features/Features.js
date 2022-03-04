@@ -12,7 +12,7 @@ const Features = ({ MenuData }) => {
     return (
         
       <>
-      <h1 style={{marginTop:"10%",textAlign:"center",marginLeft:"20px",color:"#30FBEF",fontSize:"40px"}} data-aos="fade-down">Features</h1>
+      <h1 style={{marginTop:"10%",textAlign:"center",marginLeft:"20px",color:"#30FBEF",fontSize:"40px"}} data-aos="fade-down" className='feature'>Features</h1>
         <section className="main-card--cointainer">
           {MenuData.map((curElem) => {
             const { id, name, category,image,  description } = curElem;
